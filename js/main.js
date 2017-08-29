@@ -27,12 +27,12 @@ $(document).ready(function(){
                       <strong>${repo.name}</strong> : ${repo.description}
                     </div>
                     <div class="col-md-3">
-                    <span class="label label-default">Forks : ${repos.forks_count}</span>
-                    <span class="label label-primary">Watchers : ${repos.watchers_count}</span>
-                    <span class="label label-success">Stars : ${repos.stargazers_count}</span>
+                    <span class="label label-default">Forks : ${repo.forks_count}</span>
+                    <span class="label label-primary">Watchers : ${repo.watchers_count}</span>
+                    <span class="label label-success">Stars : ${repo.stargazers_count}</span>
                     </div>
                     <div class="col-md-2">
-                      <a href="${repos.html_url}" target="_blank" class="btn btn-primary">View this Repo</a>
+                      <a href="${repo.html_url}" target="_blank" class="btn btn-primary">View this Repo</a>
                     </div>
                   </div>
 
